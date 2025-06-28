@@ -1,0 +1,7 @@
+/* .Container */
+.Container {
+  max-width: var(--container-width);
+  margin: 0 auto;
+  padding: 0 var(--margin-base);
+  width: 100%;
+}

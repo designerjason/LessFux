@@ -1,0 +1,57 @@
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin in favour of better control in authored CSS */
+body {
+  margin: 0;
+}
+
+/* Set core body defaults */
+body {
+  line-height: var(--lineheight-base);
+  min-height: 100vh;
+}
+
+/* smaller default header margins */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-block: var(--margin-base);
+}
+
+/* Set shorter line heights on headings and interactive elements */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+button,
+input,
+label {
+  line-height: var(--lineheight-heading-base);
+}
+
+/* Make images easier to work with */
+img,
+picture {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font-family: inherit;
+  font-size: inherit;
+}

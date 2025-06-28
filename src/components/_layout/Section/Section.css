@@ -1,0 +1,4 @@
+/* .Section */
+.Section {
+  margin-block: calc(var(--margin-base) * 2);
+}

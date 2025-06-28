@@ -1,0 +1,6 @@
+/* .CommonHeading */
+.CommonHeading {
+  font-size: clamp(28px, 3vw, 48px);
+  margin-block: var(--margin-base);
+  text-align: center;
+}

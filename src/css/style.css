@@ -1,9 +1,0 @@
-@layer theme, reset, layout, component;
-
-@import 'theme.css' layer(theme);
-@import 'reset.css' layer(reset);
-
-@import '../components/_layout/CommonHeading/CommonHeading.css' layer(layout);
-@import '../components/_layout/Container/Container.css' layer(layout);
-@import '../components/_layout/Grid/Grid.css' layer(layout);
-@import '../components/_layout/Section/Section.css' layer(layout);

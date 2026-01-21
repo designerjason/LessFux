@@ -19,7 +19,7 @@
   --min-font-base: 12px;
   --max-font-base: 20px;
 
-  /* Modular typographi scale multipliers (1.25 scale) */
+  /* Modular typographic scale multipliers (1.25 scale) */
   --font-step-h1: 3.052;
   --font-step-h2: 2.441;
   --font-step-h3: 1.953;
@@ -89,3 +89,4 @@ hr {
   margin: calc(var(--margin-base) * 2) 0;
   opacity: 0.2;
 }
+
